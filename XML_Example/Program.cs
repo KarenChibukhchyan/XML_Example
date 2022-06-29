@@ -9,7 +9,6 @@ namespace XML_Example
         public static void Main(string[] args)
         {
             XDocument xml = XDocument.Load("persons.xml");
-            //get first bob node
             var persons = xml.Descendants("person");
             var teachers = persons.SelectMany(person => person.Elements("teacher"));
             var qualificationsContainer = teachers.SelectMany(teacher => teacher.Elements("qualifications"));
