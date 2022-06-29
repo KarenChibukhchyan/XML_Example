@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<persons>
+    <person>
+        <id>1</id>
+        <age>18</age>
+        <name>valod</name>
+        <surname>valod</surname>
+        <teacher/>
+    </person>
+
+    <person>
+        <id>2</id>
+        <age>18</age>
+        <name>valod</name>
+        <surname>valod</surname>
+        <teacher>
+            <id>12</id>
+            <name>safsa</name>
+            <qualifications>
+                <qualification>
+                    <id>12</id>
+                    <name>hgjkghj</name>
+                </qualification>
+                <qualification>
+                    <id>13</id>
+                    <name>Geometry</name>
+                </qualification>
+            </qualifications>
+        </teacher>
+    </person>
+
+    <person>
+        <id>3</id>
+        <age>8</age>
+        <name>valodya</name>
+        <surname>Lenin</surname>
+        <teacher>
+            <id>11</id>
+            <name>Anton</name>
+            <qualifications>
+                <qualification>
+                    <id>10</id>
+                    <name>Physics</name>
+                </qualification>
+                <qualification>
+                    <id>13</id>
+                    <name>Geometry</name>
+                </qualification>
+            </qualifications>
+        </teacher>
+    </person>
+
+    <person>
+        <id>4</id>
+        <age>23</age>
+        <name>Pavel</name>
+        <surname>Chexov</surname>
+        <teacher>
+            <id>20</id>
+            <name>Leopold</name>
+        </teacher>
+        <teacher>
+            <id>22</id>
+            <name>Platon</name>
+        </teacher>
+    </person>
+
+    <person>
+        <id>5</id>
+        <age>23</age>
+        <name>Lena</name>
+        <surname>Chubays</surname>
+        <teacher>
+            <id>25</id>
+            <name>Konstantin</name>
+            <qualifications>
+                <qualification>
+                    <id>15</id>
+                    <name>Chemistry</name>
+                </qualification>
+                <qualification>
+                    <id>19</id>
+                    <name>Music</name>
+                </qualification>
+            </qualifications>
+        </teacher>
+    </person>
+
+    <person>
+        <id>6</id>
+        <age>23</age>
+        <name>Krokodil</name>
+        <surname>Gena</surname>
+    </person>
+
+
+
+</persons>
+
+
+
+
+
+
+
+
+
+
